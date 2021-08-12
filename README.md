@@ -1,6 +1,6 @@
 # Socket Private Chat
 
-[![downloads](https://img.shields.io/github/downloads/nikkdusky/Socket-Private-Chat/total?color=pink&style=flat-square)](https://github.com/NikkDusky/Socket-Private-Chat)
+[![downloads](https://img.shields.io/github/downloads/nikkdusky/Socket-Private-Chat/total?color=pink&style=flat-square)](https://github.com/NikkDusky/Socket-Private-Chat/releases)
 [![repo size](https://img.shields.io/github/repo-size/nikkdusky/Socket-Private-Chat?color=pink&style=flat-square)](https://github.com/NikkDusky/Socket-Private-Chat/)
 
 ## Server Requirements
