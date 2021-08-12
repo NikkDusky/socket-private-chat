@@ -10,6 +10,8 @@ Python 3
 pip install loguru
 pip install configparser
 ```
+[![loguru](https://img.shields.io/pypi/v/loguru?color=pink&label=loguru&style=flat-square)](https://pypi.org/project/loguru/)
+[![configparser](https://img.shields.io/pypi/v/configparser?color=pink&label=configparser&style=flat-square)](https://pypi.org/project/configparser/)
 
 ## Client Requirements
 
@@ -19,6 +21,9 @@ pip install loguru
 pip install configparser
 pip install cryptography
 ```
+[![loguru](https://img.shields.io/pypi/v/loguru?color=pink&label=loguru&style=flat-square)](https://pypi.org/project/loguru/)
+[![configparser](https://img.shields.io/pypi/v/configparser?color=pink&label=configparser&style=flat-square)](https://pypi.org/project/configparser/)
+[![cryptography](https://img.shields.io/pypi/v/cryptography?color=pink&label=cryptography&style=flat-square)](https://pypi.org/project/cryptography/)
 
 ## About
 
