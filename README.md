@@ -1,7 +1,5 @@
 # Socket Private Chat
 
-Socket Private Chat
-
 ## Server Requirements
 
 ```
