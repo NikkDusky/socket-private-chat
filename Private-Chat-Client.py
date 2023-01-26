@@ -23,6 +23,7 @@ class Client():
 
         logger.configure(**logging_model)
         new_level_chat = logger.level("CHAT", no=38, color="<light-cyan>")
+        new_level_chaterror = logger.level("MSGerror", no=38, color="<white>")
         new_level_connect = logger.level("+", no=38, color="<light-green>")
         new_level_disconnect = logger.level("-", no=38, color="<light-red>")
         new_level_system = logger.level("SYS.", no=38, color="<light-yellow>")
@@ -104,7 +105,7 @@ class Client():
                     try:
                         logger.log("CHAT", f"{self.decrypt(message)}")
                     except:
-                        logger.error(f"Кто-то отправил сообщение, но вам не удалось его расшифровать.\nПроверьте совпадают ли ключи в '{self.cfg_file}'")
+                        logger.log("MSGerror", f"Не удалось расшифровать (сверьте ключи из файла: {self.cfg_file} с собеседником)")
                 elif message.startswith("[+]"):
                     logger.log("+", message.replace("[+] ", ""))
                 elif message.startswith("[-]"):
